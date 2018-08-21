@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Code School';
+
+  links = [
+    { path: '/home', icon: 'home', label: 'Home'},
+    { path: '/items', icon: 'list', label: 'Items'},
+    { path: '/widgets', icon: 'view_quilt', label: 'Widgets'}
+  ];
 }
