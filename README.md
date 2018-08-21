@@ -32,3 +32,6 @@ https://github.com/angular/angular-cli/wiki/stories-global-lib
 ## Add Material Pre Built Theme
 https://material.angular.io/guide/getting-started
 `npm install --save @angular/material @angular/cdk @angular/animations`
+
+## Layout (prebuilt material theme)
+![Theme Layout](src/images/PreBuildMatTheme.png) 
