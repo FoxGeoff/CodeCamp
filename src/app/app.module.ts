@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CoursesComponent } from './courses/courses.component';
 import { ItemsComponent } from './items/items.component';
+import { ItemsListComponent } from './items-list/items-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CoursesComponent,
-    ItemsComponent
+    ItemsComponent,
+    ItemsListComponent
   ],
   imports: [
     BrowserModule,
