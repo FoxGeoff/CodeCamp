@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Item } from '../shared';
 
 @Component({
@@ -9,6 +9,8 @@ import { Item } from '../shared';
 export class ItemsListComponent implements OnInit {
   @Input() items: Item[];
   @Input() readonly = false;
+  @Output() selected = new EventEmitter();
+  @Output() deleted = new EventEmitter();
 
   constructor() {
   }
