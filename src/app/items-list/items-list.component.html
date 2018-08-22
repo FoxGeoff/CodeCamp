@@ -10,7 +10,7 @@
   </mat-card-header>
   <mat-card-content>
     <mat-list>
-        <mat-list-item *ngFor="let item of items" class="record"> 
+      <mat-list-item *ngFor="let item of items" (click)="selected.emit(item)" class="record">
         <h3 mat-line>{{item.name}}</h3>
         <button *ngIf="!readonly" mat-icon-button (click)="deleted.emit(item);$event.stopImmediatePropagation();">
           <mat-icon>close</mat-icon>

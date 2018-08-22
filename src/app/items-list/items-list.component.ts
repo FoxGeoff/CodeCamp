@@ -19,7 +19,7 @@ export class ItemsListComponent implements OnInit {
 
   getItems(): Item[] {
     return [
-      { "id": 0, "name": "thing", "price": 20.56, "description": "This is a thing" },
+      { "id": 0, "name": "Thing item", "price": 20.56, "description": "This is a thing" },
       { 
         "id": 1, 
         "name": "Red Item", 
